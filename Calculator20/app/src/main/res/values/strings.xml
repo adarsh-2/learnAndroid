@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculator 2.0</string>
+    <string name="numbers">Numbers</string>
+    <string name="result_textview">Result TextView</string>
+</resources>

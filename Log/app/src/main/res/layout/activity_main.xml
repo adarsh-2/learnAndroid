@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Info" />
+
+    <Button
+        android:id="@+id/buttonWarn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonInfo"
+        android:layout_centerHorizontal="true"
+        android:text="Warn" />
+
+    <Button
+        android:id="@+id/buttonError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonInfo"
+        android:layout_centerHorizontal="true"
+        android:text="Error" />
+
+    <Button
+        android:id="@+id/buttonDebug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonError"
+        android:layout_centerHorizontal="true"
+        android:text="Debug" />
+
+    <Button
+        android:id="@+id/buttonVerbose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonWarn"
+        android:layout_centerHorizontal="true"
+        android:text="Verbose" />
+
+</RelativeLayout>

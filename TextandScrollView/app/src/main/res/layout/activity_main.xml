@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/free_nature_images" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique alias rem nesciunt perferendis quae? Sint corrupti dolorem nesciunt iure harum provident excepturi doloribus sed, voluptate numquam repellat ab ea reiciendis modi doloremque officiis maiores eaque nam nobis quasi deserunt commodi inventore magni vel. Odit labore nam possimus dolores tenetur beatae corporis vel aperiam? Error, tenetur. Quisquam, reiciendis distinctio. Nemo nisi, necessitatibus praesentium veritatis a in itaque incidunt consequuntur libero, sunt inventore atque dolore, qui deserunt reprehenderit! Deleniti qui ad incidunt in nam optio dignissimos a et dolorum amet dolorem ullam aliquid minus inventore vel ducimus, neque eos suscipit nesciunt culpa."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/free_nature_images" />
+
+</LinearLayout>

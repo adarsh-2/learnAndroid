@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewBinding</string>
+    <string name="i_agree_to_t_n_c"><![CDATA[I agree to T&C]]></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+</resources>

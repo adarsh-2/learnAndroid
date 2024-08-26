@@ -1,0 +1,4 @@
+This app is used for storing data that were entered and even if the app is closed the app will
+remember the entered data.
+
+Button in MainActivity xml file is useless

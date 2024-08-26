@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Attendance"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="2"
+                    android:text="Name"
+                    style="@style/topRow"/>
+
+                <TextView
+                    style="@style/topRow"
+                    android:text="M" />
+
+                <TextView
+                    style="@style/topRow"
+                    android:text="T" />
+
+                <TextView
+                    style="@style/topRow"
+                    android:text="W" />
+
+                <TextView
+                    style="@style/topRow"
+                    android:text="T" />
+
+                <TextView
+                    style="@style/topRow"
+                    android:text="F" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Bhavani"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb1"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb3"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb4"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb5"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Biswa"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb6"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb7"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb8"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb9"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb10"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Garvit"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb11"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb12"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb13"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb14"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb15"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Mayank"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb16"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb17"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb18"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb19"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb20"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Pruthvi"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb21"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb22"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb23"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb24"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb25"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Rayan"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb26"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb27"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb28"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb29"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb30"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Rohan"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb31"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb32"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb33"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb34"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb35"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Sai"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb36"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb37"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb38"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb39"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb40"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Satheesh"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb41"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb42"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb43"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb44"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb45"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Vardhan"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb46"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb47"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb48"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb49"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb50"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:text="Vidh"
+                    android:layout_weight="2"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb51"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb52"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb53"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb54"
+                    style="@style/eachRow"/>
+
+                <CheckBox
+                    android:id="@+id/cb55"
+                    style="@style/eachRow"/>
+
+            </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+
+    <Button
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Clear All"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="skip"><u>SKIP</u></string>
+    <string name="upload_image"><u>Upload Image</u></string>
+</resources>
